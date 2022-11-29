@@ -5,6 +5,7 @@
 ## Data
 [Link to google drive with training images and dataset instructions](https://drive.google.com/drive/folders/1Pdd8phPOgasBIXaX9CAk65HhruBgEjii?usp=sharing)
 
+### Examples of training/validation data before annotation
 ![Example of training data](/screenshots/data1.jpg)
 
 ![](/screenshots/data2.jpg)
