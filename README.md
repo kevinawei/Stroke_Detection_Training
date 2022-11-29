@@ -63,7 +63,7 @@ print(f"Total Cleaned: {valid_data_count}/{len(annotations)}")
 [Link to google colab](https://colab.research.google.com/drive/19RhGfiKIkM0KLWVSCt6hnT3fcXBlTCMz?authuser=3)
 
 
-We trained our EfficientDet-Lite3 Model with a batch size of 4 over 100 epochs
+We trained our EfficientDet-Lite3 Model with a batch size of 10 over 100 epochs
 
 EfficientDet-Lite3 was selected over other more lightweight alternatives because the slightly increased latency wouldn't seem to effect the usage of an app of this nature (stroke detection symptoms would last a long time and the latency is low enough that it would be able to detect changes within a few seconds at worst)
 
