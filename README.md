@@ -51,14 +51,21 @@ for annotation in annotations:
     except:
         print(f"{annotation} was not labelled")
 
-# Train - 419/603 (Ferdz & WenJin)
-# Validation - 220/313 (Kevin)
-# Total Data: 639
+### Train - 419/603 (Ferdz & WenJin)
+### Validation - 220/313 (Kevin)
+### Total Data: 639
 print(f"Total Cleaned: {valid_data_count}/{len(annotations)}")
 
 
 
 ## Results
+[Link to google colab](https://colab.research.google.com/drive/19RhGfiKIkM0KLWVSCt6hnT3fcXBlTCMz?authuser=3)
+
+
+We trained our EfficientDet-Lite3 Model with a batch size of 4 over 100 epochs
+
+EfficientDet-Lite3 was selected over other more lightweight alternatives because the slightly increased latency wouldn't seem to effect the usage of an app of this nature (stroke detection symptoms would last a long time and the latency is low enough that it would be able to detect changes within a few seconds at worst)
+
 ![Tensorboard Graphs](/screenshots/learning_rate.png)
 ![](/screenshots/epoch_cls_loss.png)
 ![](/screenshots/epoch_det_loss.png)
