@@ -5,11 +5,11 @@
 ## Data
 [Link to google drive with training images and dataset instructions](https://drive.google.com/drive/folders/1Pdd8phPOgasBIXaX9CAk65HhruBgEjii?usp=sharing)
 
-### Examples of training/validation data before annotation
+### Examples of training/validation data before annotation (see more details on requirements and the annotation process in the instruction document located at the above link)
 ![Example of training data](/screenshots/data1.jpg)
 
 ![](/screenshots/data2.jpg)
-### Script to reformat XML files to be processed with labels
+### Script to reformat XML files to be processed with labels 
 
 """
 This script reformats XML files labelled with CVAT to
