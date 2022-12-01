@@ -60,7 +60,7 @@ print(f"Total Cleaned: {valid_data_count}/{len(annotations)}")
 
 
 ## Results
-[Link to google colab](https://colab.research.google.com/drive/19RhGfiKIkM0KLWVSCt6hnT3fcXBlTCMz?authuser=3)
+[Link to google colab](https://drive.google.com/file/d/19RhGfiKIkM0KLWVSCt6hnT3fcXBlTCMz/view?usp=sharing)
 
 
 We trained our EfficientDet-Lite3 Model with a batch size of 10 over 100 epochs
